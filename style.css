@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,700|Josefin+Sans:300,400,600&display=swap');
 
+* {
+  cursor: url(https://logo.clearbit.com/pringles.com), auto !important;
+}
 
 body {
   background-color: rgb(255, 255, 250);
@@ -184,5 +187,7 @@ p {
     font-size: 28px;
   }
 }
-
+.audio {
+  display:none;
+}
 
