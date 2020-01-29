@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,700|Josefin+Sans:300,400,600&display=swap');
+
+
+body {
+  background-color: rgb(255, 255, 250);
+  font-family: 'Josefin Sans', sans-serif; ;
+  color: #0C314A;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(45, 48, 71);
+  font-family: 'EB Garamond', serif; ;
+  line-height: 1.4em;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  padding: 9px 7px 7px 7px;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1.0);
+  font-weight: bolder;
+}
+
+.button {
+  background-color: rgb(121, 145, 216, 1);
+  border-radius: 5px
+}
+
+.card {
+  background-color: rgba(201, 214, 234, .3);
+  border: .5px solid rgb(191, 205, 224);
+  border-radius: 25px;
+  margin: 20px;
+  padding: 0px 20px 20px 20px;
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
+
+li a {
+  color: black;
+  padding: 0;
+}
+
+li a:hover {
+  color: black;
+}
+
+p {
+  padding: 0px;
+}
+
+#facebook {
+  color: rgba(66, 103, 178, 0.7);
+}
+
+#facebook:hover {
+  color: rgba(66, 103, 178, 1.0);
+}
+
+#insta {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#insta:hover {
+  color: rgba(0, 0, 0, 1.0);
+
+}
+
+#github {
+  color: rgba(36, 41, 46, 0.7);
+}
+
+#github:hover {
+  color: rgba(36, 41, 46, 1.0);
+}
+
+@media (max-width: 30000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .image {
+    width: 500px;
+    border-radius: 75px;
+    margin: 0 auto;
+  }
+  body {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  a {
+    font-size: 20px;
+  }
+
+  li a {
+    font-size:40px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .image {
+    width: 500px;
+    border-radius: 75px;
+    margin: 0 auto;
+  }
+  body {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  a {
+    font-size: 20px;
+  }
+  li a {
+    font-size:40px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .image {
+    width: 300px;
+    border-radius: 50px;
+    margin: 0 auto;
+  }
+  body {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  a {
+    font-size: 18px;
+  }
+  li a {
+    font-size: 34px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .image {
+    width: 200px;
+    border-radius: 30px;
+    margin: 0 auto;
+  }
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  a {
+    font-size: 16px;
+  }
+  li a {
+    font-size: 28px;
+  }
+}
+
+
